@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/5112logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <title>Karla Assis</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header-container">
+        <a href="index.html" target="_self"><img id="logo" src="./img/logo.svg" alt="Logo" width="12%" height="12%"></a>
+        <div class="menu-hamburguesa">
+            <img class="img-menu hamburguesa" id="hamburguesa" src="./img/hamburger.png" alt="Menu-Toggle">
+            <img class="img-menu close" id="close" src="./img/close.png" alt="Cerra-Toggle">
+            <span>menu</span>
+        </div>
+        <nav class="navegacion" id="navegacion">
+            <ul class="menu-nav">
+                <li><a href="index.html" target="_self">Inicio</a> </li>
+                <li><a href="portafolio.html">Portafolio</a> </li>
+                <li><a href="quien-soy.html" target="_self">Quién soy</a> </li>
+                <!-- <li><a href="que-hago.html" target="_self">Qué hago</a> </li> -->
+                <li><a class="activo" href="contacto.html" target="_self">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-contacto">
+            <h1>Vamos a proyectar tu marca?</h1>
+            <form action="enviar.php" class="form-contacto" method="post">
+                <fieldset class="div-input">
+                    <label for="">Nombre*</label>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+                </fieldset>
+                <fieldset class="div-input">
+                    <label for="">Teléfono*</label>
+                    <input type="text" name="telefono" placeholder="Ingrese su teléfono" required>
+                </fieldset>
+                <fieldset class="div-input">
+                    <label for="">E-mail*</label>
+                    <input type="text" name="email" placeholder="Ingrese su e-mail" required>
+                </fieldset>
+                <fieldset class="div-input">
+                    <label for="">Asunto*</label>
+                    <input type="text" name="asunto" placeholder="Ingrese su asunto" required>
+                </fieldset>
+                <fieldset class="div-input div-input-text-area">
+                    <label class="label-mensaje" for="">Contame un poco sobre vos y tu emprendimento*</label>
+                    <textarea name="mensaje" id="text-area" placeholder="Escriba aquí su mensaje" required></textarea>
+                </fieldset>
+                <!-- <article class="boton-contactame">
+                   <fieldset class="button div-input btn-enviar derecha"> <input id="btn-enviar" type="submit" value="enviar"></fieldset>
+                </article> -->
+            <article class="boton-contactame">
+                    <a type="submit" value="enviar" class="button"> Enviar </a>
+                </article>
+                <!-- <article class="boton-contactame">
+                    <a href="mailto:karlaassis@gmail.com" type="submit" value="enviar" class="button"> Enviar </a>
+                </article> -->
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/karlaassis" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://www.behance.net/karlaassis" target="_blank"><i class="fab fa-behance-square fa-3x"></i></a>
+        <a href="https://www.instagram.com/kassis.design/" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
+    </footer>
+    <script src="./javaScript/index.js"></script>
+</body>
+</html>
