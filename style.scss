@@ -83,6 +83,7 @@ p {
     align-self: center;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .button:hover {
@@ -242,14 +243,11 @@ ul.menu-nav li a.activo {
 }
 
 .servicios p {
-    font-weight: 300;
-}
-
-.p-servicios {
     color: white;
     font-weight: 700 !important;
     text-transform: uppercase;
 }
+
 
 /*Slide*/
 @mixin white-gradient {
@@ -407,6 +405,10 @@ $animationSpeed: 40s;
     opacity: 100%;
 }
 
+.servicios p {
+    font-size: 0.8em;
+}
+
 /* css quien soy */
 
 .section-quien-soy {
@@ -487,7 +489,6 @@ $animationSpeed: 40s;
     height: 40px;
     border: none;
     background: #e3e1e6;
-    width: 100%;
     top: 20px;
     font-size: 1.1em;
     padding: 20px;
@@ -773,7 +774,10 @@ footer .fa-instagram-square {
     .section-contacto h1 {
         margin-left: 40px;
     }
-
+    
+    .div-input {
+        width: 100%;
+    }
 
     /*luvyn*/
 
