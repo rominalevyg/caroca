@@ -27,7 +27,7 @@ body {
     padding: 0px;
     border: 0px;
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--background);
 }
@@ -42,6 +42,10 @@ h1 {
     font-weight: 800;
 }
 
+h1 {
+    font-size: 1.7em;
+}
+
 p {
     font-size: 1em;
     font-weight: 300;
@@ -54,12 +58,13 @@ p {
 }
 
 .parent-column {
+    display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
 
-.parent-column-center {
-    flex-direction: column;
+.center {
+    align-items: center;
     justify-content: center;
 }
 
@@ -97,10 +102,17 @@ p {
     flex: 1;
     justify-content: space-between;
     align-items: center;
+    .logo {
+        margin-left: 40px;
+    }
 }
 
-#logo {
-    margin-left: 95px;
+.volver {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 100px;
+    background-color: #ffffff79;
 }
 
 .close {
@@ -126,7 +138,6 @@ p {
     display: block;
     padding: 5px 20px;
     color: #000000;
-    font-size: 1.5vw;
     text-align: center;
     font-weight: 300;
 }
@@ -152,18 +163,18 @@ ul.menu-nav li a.activo {
 
 /* inicio */
 
-.article-main p, .article-main img {
-    height: auto;
-    margin-left: 40px;
-    margin-bottom: 20px;
-}
-
-.article-main p {
-    width: 40%;
-}
-
-.article-main img {
-    width: 30%;
+.article-main {
+    p, a img {
+        height: auto;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    p {
+        width: 40%;
+    }
+    a img {
+        width: 25%;
+    }
 }
 
 .encabezado {
@@ -190,7 +201,6 @@ ul.menu-nav li a.activo {
 
 .titulo-servicios p {
     align-self: center;
-    font-size: 1.1em !important;
 }
 
 .titulo-servicios {
@@ -214,7 +224,6 @@ ul.menu-nav li a.activo {
 .bottom-info h2 {
     position: relative;
     color: var(--red-color);
-    font-size: 1.7em;
     font-weight: 300;
     text-align: center;
     top: 10px;
@@ -233,13 +242,11 @@ ul.menu-nav li a.activo {
 }
 
 .servicios p {
-    font-size: 0.8em;
     font-weight: 300;
 }
 
 .p-servicios {
     color: white;
-    font-size: 1em !important;
     font-weight: 700 !important;
     text-transform: uppercase;
 }
@@ -311,26 +318,19 @@ $animationSpeed: 40s;
 
 .proyectos {
     margin-top: 80px;
-    box-sizing: border-box;
 }
 
 .contenido {
+    margin: 40px;
     overflow: hidden;
-    margin-left: 100px;
-}
-
-.contenido h2 {
-    left: 30px;
-    width: 65%;
-    font-size: 1.3em;
-    font-weight: 800;
-}
-
-.contenido p {
-    width: 100%;
-    font-size: 1.3em;
-    font-weight: 300;
-    line-height: 25px;
+    h2 {
+        left: 30px;
+        font-weight: 800;
+    }
+    p {
+        width: 80%;
+        line-height: 25px;
+    }   
 }
 
 /* css Galeria*/
@@ -418,12 +418,10 @@ $animationSpeed: 40s;
 }
 
 .section-quien-soy article {
-    box-sizing: border-box;
     width: 40%;
 }
 
 .section-quien-soy p {
-    font-size: 1.1em;
     line-height: 30px;
     font-weight: 300;
     text-align: justify;
@@ -435,13 +433,20 @@ $animationSpeed: 40s;
 }
 
 .section-quien-soy img {
-    width: 40%;
+    width: 60%;
 }
 
 .boton-contactame {
     width: 100%;
     display: flex;
     justify-content: center;
+    .parent-column {
+        margin: 0px;
+    }
+    h4 {
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
 }
 
 /* css contacto */
@@ -485,7 +490,6 @@ $animationSpeed: 40s;
     width: 100%;
     top: 20px;
     font-size: 1.1em;
-    box-sizing: border-box;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -513,7 +517,6 @@ $animationSpeed: 40s;
     background: #e3e1e6;
     font-size: 1.1em;
     margin-right: 5px;
-    box-sizing: border-box;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -543,17 +546,15 @@ footer .fa-instagram-square {
 /*Luvyn*/
 .section-luvyn {
     margin-top: 120px;
-    box-sizing: border-box;
 }
 
 .section-luvyn article {
-    box-sizing: border-box;
     width: 100%;
 }
 
 .section-luvyn .parent {
     width: 100% !important;
-    box-sizing: border-box;
+    gap: 0px !important;
 }
 
 .section-luvyn img {
@@ -570,7 +571,7 @@ footer .fa-instagram-square {
 .section-veganes .parent,
 .section-veganes .parent-column {
     width: 100% !important;
-    box-sizing: border-box;
+    gap: 0px;
 }
 
 .section-veganes img {
@@ -585,7 +586,7 @@ footer .fa-instagram-square {
 .section-taccuino .parent,
 .section-taccuino .parent-column {
     width: 100% !important;
-    box-sizing: border-box;
+    gap: 0px;
 }
 
 .section-taccuino img {
@@ -608,7 +609,7 @@ footer .fa-instagram-square {
 .section-whaleshouse .parent,
 .section-whaleshouse .parent-column {
     width: 100% !important;
-    box-sizing: border-box;
+    gap: 0px;
 }
 
 .section-whaleshouse img {
@@ -632,14 +633,14 @@ footer .fa-instagram-square {
     }
 
     .article-main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .article-main {
-        width: 90%;
+        margin-left: 0px;
+        p {
+            width: 80%;
+        }
+        a img {
+            margin-top: 20px;
+            width: 50%;
+        }
     }
 
     .menu-hamburguesa {
@@ -720,7 +721,7 @@ footer .fa-instagram-square {
     }
 
     body {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .encabezado {
@@ -737,8 +738,8 @@ footer .fa-instagram-square {
     }
 
     /* ccs portafolio */
-    .contenido {
-        margin-left: 40px;
+    .contenido p {
+        width: 100%;
     }
 
     /* css quien soy */
@@ -756,7 +757,6 @@ footer .fa-instagram-square {
     }
 
     .section-quien-soy p {
-        font-size: 1.8em;
         line-height: 35px;
     }
 
@@ -764,11 +764,16 @@ footer .fa-instagram-square {
         width: 90%;
     }
 
+    .boton-contactame .parent-column {
+        margin-top: 40px;
+    } 
+    
     /* css contacto */
 
     .section-contacto h1 {
         margin-left: 40px;
     }
+
 
     /*luvyn*/
 
