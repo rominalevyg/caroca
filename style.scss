@@ -103,6 +103,7 @@ p {
     flex: 1;
     justify-content: space-between;
     align-items: center;
+
     .logo {
         margin-left: 40px;
     }
@@ -165,14 +166,18 @@ ul.menu-nav li a.activo {
 /* inicio */
 
 .article-main {
-    p, a img {
+
+    p,
+    a img {
         height: auto;
         margin-left: 40px;
         margin-bottom: 20px;
     }
+
     p {
         width: 40%;
     }
+
     a img {
         width: 25%;
     }
@@ -321,14 +326,16 @@ $animationSpeed: 40s;
 .contenido {
     margin: 40px;
     overflow: hidden;
+
     h2 {
         left: 30px;
         font-weight: 800;
     }
+
     p {
         width: 80%;
         line-height: 25px;
-    }   
+    }
 }
 
 /* css Galeria*/
@@ -442,9 +449,11 @@ $animationSpeed: 40s;
     width: 100%;
     display: flex;
     justify-content: center;
+
     .parent-column {
         margin: 0px;
     }
+
     h4 {
         margin-top: 5px;
         margin-bottom: 25px;
@@ -635,9 +644,11 @@ footer .fa-instagram-square {
 
     .article-main {
         margin-left: 0px;
+
         p {
             width: 80%;
         }
+
         a img {
             margin-top: 20px;
             width: 50%;
@@ -767,14 +778,14 @@ footer .fa-instagram-square {
 
     .boton-contactame .parent-column {
         margin-top: 40px;
-    } 
-    
+    }
+
     /* css contacto */
 
     .section-contacto h1 {
         margin-left: 40px;
     }
-    
+
     .div-input {
         width: 100%;
     }
