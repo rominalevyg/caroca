@@ -7,6 +7,6 @@
     $mensaje = $_POST["mensaje"];
     $contenido = "Nombre:" . $nombre . "\nE-mail: " . $email . "\nTeléfono: " . $telefono . "\nMensaje: " . $mensaje;
     mail($destino, $asunto, $contenido);
-    echo "Gracias!";
+    echo "Su mensaje ha sido enviado. Nos comunicaremos a la brevedad. Gracias :)";
     $('input').val("");
  ?>
