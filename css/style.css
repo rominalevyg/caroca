@@ -37,6 +37,9 @@ p {
   font-weight: 300;
   line-height: 25px; }
 
+.glider-track {
+  gap: 10px; }
+
 .parent {
   display: flex;
   gap: 20px; }
@@ -312,7 +315,7 @@ ul.menu-nav li a.activo {
   opacity: 100%; }
 
 .servicios p {
-  font-size: 0.8em; }
+  font-size: 1.2em; }
 
 /* css quien soy */
 .section-quien-soy {
@@ -489,6 +492,25 @@ footer .fa-instagram-square {
 
 .section-whaleshouse {
   margin-top: 120px; }
+
+/*Lucco*/
+.section-lucco {
+  margin-top: 120px; }
+
+.section-lucco article {
+  width: 100%; }
+
+.section-lucco .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-lucco img {
+  margin-top: -4px !important; }
+
+#luvyn_4_mobile,
+#luvyn_6_mobile {
+  visibility: hidden;
+  width: 0% !important; }
 
 /* Media */
 @media screen and (max-width: 800px) {
