@@ -79,7 +79,6 @@ p {
     text-align: center;
     background: transparent;
     border: .5px solid rgba(0, 0, 0, 0.3);
-    line-height: 25px;
     padding: 8px;
     width: 10em;
     display: flex;
@@ -217,7 +216,6 @@ ul.menu-nav li a.activo {
     position: absolute;
     align-self: center;
     background: #e3e1e690;
-    line-height: 1.5em;
     width: 100%;
     bottom: 20px;
     text-align: center;
@@ -337,7 +335,6 @@ $animationSpeed: 40s;
 
     p {
         width: 80%;
-        line-height: 25px;
     }
 }
 
@@ -434,7 +431,6 @@ $animationSpeed: 40s;
 }
 
 .section-quien-soy p {
-    line-height: 25px;
     font-weight: 300;
     text-align: justify;
 }
@@ -798,10 +794,6 @@ footer .fa-instagram-square {
 
     .section-quien-soy h1 {
         margin-top: 40px;
-    }
-
-    .section-quien-soy p {
-        line-height: 35px;
     }
 
     .section-quien-soy img {

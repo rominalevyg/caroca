@@ -584,6 +584,8 @@ footer .fa-instagram-square {
     flex-direction: column; }
   .titulo-servicios {
     font-size: 1.7em; }
+  .servicios p {
+    font-size: 0.8em; }
   /* ccs portafolio */
   .contenido p {
     width: 100%; }
