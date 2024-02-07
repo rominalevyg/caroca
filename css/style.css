@@ -483,6 +483,72 @@ footer .fa-instagram-square {
 .section-lucco img {
   margin-top: -4px !important; }
 
+/*Fc-docuras*/
+.section-fc-docuras article {
+  width: 100%; }
+
+.section-fc-docuras .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-fc-docuras img {
+  margin-top: -4px !important; }
+
+/*Geledes*/
+.section-geledes article {
+  width: 100%; }
+
+.section-geledes .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-geledes img {
+  margin-top: -4px !important; }
+
+#geledes_4_mobile,
+#geledes_6_mobile,
+#geledes_18_mobile {
+  visibility: hidden;
+  width: 0% !important; }
+
+/*mana*/
+.section-mana article {
+  width: 100%; }
+
+.section-mana .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-mana img {
+  margin-top: -4px !important; }
+
+/*oks*/
+.section-oks article {
+  width: 100%; }
+
+.section-oks .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-oks img {
+  margin-top: -4px !important; }
+
+/*ciclo*/
+.section-ciclo article {
+  width: 100%; }
+
+.section-ciclo .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-ciclo img {
+  margin-top: -4px !important; }
+
+#ciclo_5_mobile,
+#ciclo_15_mobile {
+  visibility: hidden;
+  width: 0% !important; }
+
 /* Media */
 @media screen and (max-width: 800px) {
   .header-container {
@@ -606,4 +672,96 @@ footer .fa-instagram-square {
     margin-top: -30px !important; }
   /*veganes*/
   #veganes_1 {
-    margin-top: -30px !important; } }
+    margin-top: -30px !important; }
+  /*lucco*/
+  #lucco_1,
+  #lucco_2,
+  #lucco_3,
+  #lucco_4,
+  #lucco_5,
+  #lucco_6 {
+    width: 100% !important; }
+  .section-lucco .parent {
+    flex-direction: column; }
+  /*fc docuras*/
+  #fc_docuras_1,
+  #fc_docuras_2,
+  #fc_docuras_4,
+  #fc_docuras_5 {
+    width: 100% !important; }
+  .section-fc-docuras .parent {
+    flex-direction: column; }
+  /*geledes*/
+  #geledes_1,
+  #geledes_2,
+  #geledes_3,
+  #geledes_4_mobile,
+  #geledes_5,
+  #geledes_6_mobile,
+  #geledes_7,
+  #geledes_8,
+  #geledes_9,
+  #geledes_10,
+  #geledes_11,
+  #geledes_12,
+  #geledes_13,
+  #geledes_14,
+  #geledes_15,
+  #geledes_16,
+  #geledes_17,
+  #geledes_18_mobile,
+  #geledes_19 {
+    visibility: visible;
+    width: 100% !important; }
+  #geledes_4,
+  #geledes_6,
+  #geledes_18 {
+    visibility: hidden;
+    width: 0% !important; }
+  /*mana*/
+  #mana_1,
+  #mana_2,
+  #mana_3,
+  #mana_4,
+  #mana_5 {
+    width: 100% !important; }
+  .section-mana .parent {
+    flex-direction: column; }
+  /*oks*/
+  #oks_1,
+  #oks_2,
+  #oks_3,
+  #oks_4,
+  #oks_5,
+  #oks_6 {
+    width: 100% !important; }
+  .section-oks .parent {
+    flex-direction: column; }
+  /*ciclo*/
+  #ciclo_1,
+  #ciclo_2,
+  #ciclo_3,
+  #ciclo_4,
+  #ciclo_5,
+  #ciclo_6,
+  #ciclo_7,
+  #ciclo_8,
+  #ciclo_9,
+  #ciclo_10,
+  #ciclo_11,
+  #ciclo_12,
+  #ciclo_13,
+  #ciclo_14,
+  #ciclo_15,
+  #ciclo_16,
+  #ciclo_17,
+  #ciclo_18,
+  #ciclo_19,
+  #ciclo_20,
+  #ciclo_21,
+  #ciclo_22,
+  #ciclo_23,
+  #ciclo_24 {
+    width: 100% !important; }
+  .section-ciclo .parent {
+    flex-direction: column; } }
