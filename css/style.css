@@ -549,6 +549,17 @@ footer .fa-instagram-square {
   visibility: hidden;
   width: 0% !important; }
 
+/*EDITORIAL*/
+.section-editorial article {
+  width: 100%; }
+
+.section-editorial .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-editorial img {
+  margin-top: -4px !important; }
+
 /* Media */
 @media screen and (max-width: 800px) {
   .header-container {
@@ -742,7 +753,7 @@ footer .fa-instagram-square {
   #ciclo_2,
   #ciclo_3,
   #ciclo_4,
-  #ciclo_5,
+  #ciclo_5_mobile,
   #ciclo_6,
   #ciclo_7,
   #ciclo_8,
@@ -752,7 +763,7 @@ footer .fa-instagram-square {
   #ciclo_12,
   #ciclo_13,
   #ciclo_14,
-  #ciclo_15,
+  #ciclo_15_mobile,
   #ciclo_16,
   #ciclo_17,
   #ciclo_18,
@@ -764,4 +775,45 @@ footer .fa-instagram-square {
   #ciclo_24 {
     width: 100% !important; }
   .section-ciclo .parent {
-    flex-direction: column; } }
+    flex-direction: column; }
+  #ciclo_5,
+  #ciclo_15 {
+    visibility: hidden;
+    width: 0% !important; }
+  /*EDITORIAL */
+  .section-editorial .parent {
+    flex-direction: column; }
+  /*Tapas*/
+  #tapas_1,
+  #tapas_2,
+  #tapas_3,
+  #tapas_4 {
+    width: 100% !important; }
+  /*Folleteria*/
+  #folletos_1,
+  #folletos_2,
+  #folletos_3,
+  #folletos_4 {
+    width: 100% !important; }
+  /*Le Parc*/
+  #le_parc_1,
+  #le_parc_2,
+  #le_parc_3,
+  #le_parc_4,
+  #le_parc_5,
+  #le_parc_6,
+  #le_parc_7,
+  #le_parc_8,
+  #le_parc_9,
+  #le_parc_10,
+  #le_parc_11,
+  #le_parc_12,
+  #le_parc_13,
+  #le_parc_14,
+  #le_parc_15,
+  #le_parc_16,
+  #le_parc_17,
+  #le_parc_18,
+  #le_parc_19,
+  #le_parc_20 {
+    width: 100% !important; } }
