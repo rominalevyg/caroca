@@ -910,4 +910,11 @@ footer .fa-instagram-square {
   #los_b_6,
   #los_b_7,
   #los_b_8 {
+    width: 100% !important; }
+  /* xnv */
+  #xnv_1,
+  #xnv_2,
+  #xnv_3,
+  #xnv_4,
+  #xnv_5 {
     width: 100% !important; } }
