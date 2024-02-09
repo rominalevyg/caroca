@@ -593,6 +593,17 @@ footer .fa-instagram-square {
 .section-redes img {
   margin-top: -4px !important; }
 
+/*ILUSTRACIONES*/
+.section-ilustraciones article {
+  width: 100%; }
+
+.section-ilustraciones .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-ilustraciones img {
+  margin-top: -4px !important; }
+
 /* Media */
 @media screen and (max-width: 800px) {
   .header-container {
@@ -806,7 +817,8 @@ footer .fa-instagram-square {
   #ciclo_22,
   #ciclo_23,
   #ciclo_24 {
-    width: 100% !important; }
+    width: 100% !important;
+    visibility: visible !important; }
   .section-ciclo .parent {
     flex-direction: column; }
   #ciclo_5,
@@ -883,4 +895,17 @@ footer .fa-instagram-square {
   #redes_6,
   #redes_7,
   #redes_8 {
+    width: 100% !important; }
+  /*ILUSTRACIONES */
+  .section-ilustraciones .parent {
+    flex-direction: column; }
+  /*Los b*/
+  #los_b_1,
+  #los_b_2,
+  #los_b_3,
+  #los_b_4,
+  #los_b_5,
+  #los_b_6,
+  #los_b_7,
+  #los_b_8 {
     width: 100% !important; } }
