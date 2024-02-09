@@ -11,6 +11,7 @@ $grey-color: rgba(0, 0, 0, 0.76);
 $blue-color: #161630;
 $background: #f8f8f9;
 $header-border-bottom: lightgray;
+$light: #E3D2C0;
 
 :root {
     --red-color: #{$red-color};
@@ -20,6 +21,7 @@ $header-border-bottom: lightgray;
     --blue-color: #{$blue-color};
     --background: #{$background};
     --header-border-bottom: #{$header-border-bottom};
+    --light: #{$light};
 }
 
 body {
@@ -58,6 +60,7 @@ p {
 
 .glider-track {
     gap: 10px;
+
     p {
         color: var(--green-color) !important;
         text-align: center !important;
@@ -189,6 +192,7 @@ ul.menu-nav li a.activo {
 
     p {
         width: 40%;
+        color: var(--light);
     }
 
     a img {
@@ -669,9 +673,9 @@ footer .fa-instagram-square {
     width: 0% !important;
 }
 
-  /*mana*/
+/*mana*/
 
-  .section-mana article {
+.section-mana article {
     width: 100%;
 }
 
@@ -684,9 +688,9 @@ footer .fa-instagram-square {
     margin-top: -4px !important;
 }
 
- /*oks*/
+/*oks*/
 
- .section-oks article {
+.section-oks article {
     width: 100%;
 }
 
@@ -699,9 +703,9 @@ footer .fa-instagram-square {
     margin-top: -4px !important;
 }
 
- /*ciclo*/
+/*ciclo*/
 
- .section-ciclo article {
+.section-ciclo article {
     width: 100%;
 }
 
@@ -915,7 +919,7 @@ footer .fa-instagram-square {
     .servicios p {
         font-size: 0.8em;
     }
-    
+
     /* ccs portafolio */
     .contenido p {
         width: 100%;
@@ -1028,7 +1032,7 @@ footer .fa-instagram-square {
     }
 
     /*geledes*/
-    
+
     #geledes_1,
     #geledes_2,
     #geledes_3,
@@ -1059,7 +1063,7 @@ footer .fa-instagram-square {
         width: 0% !important;
     }
 
-     /*mana*/
+    /*mana*/
     #mana_1,
     #mana_2,
     #mana_3,
@@ -1126,13 +1130,13 @@ footer .fa-instagram-square {
     }
 
 
-    
+
     /*EDITORIAL */
-    
+
     .section-editorial .parent {
         flex-direction: column;
     }
-    
+
     /*Tapas*/
     #tapas_1,
     #tapas_2,
@@ -1153,19 +1157,19 @@ footer .fa-instagram-square {
     #le_parc_1,
     #le_parc_2,
     #le_parc_3,
-    #le_parc_4, 
+    #le_parc_4,
     #le_parc_5,
     #le_parc_6,
     #le_parc_7,
-    #le_parc_8, 
+    #le_parc_8,
     #le_parc_9,
     #le_parc_10,
     #le_parc_11,
-    #le_parc_12, 
+    #le_parc_12,
     #le_parc_13,
     #le_parc_14,
     #le_parc_15,
-    #le_parc_16, 
+    #le_parc_16,
     #le_parc_17,
     #le_parc_18,
     #le_parc_19,
@@ -1189,11 +1193,11 @@ footer .fa-instagram-square {
 
 
     /*UX UI Y WEB */
-    
+
     .section-uxuiweb .parent {
         flex-direction: column;
     }
-    
+
     /*Web*/
     #web_1,
     #web_2,
@@ -1206,11 +1210,11 @@ footer .fa-instagram-square {
     }
 
     /*REDES */
-    
+
     .section-redes .parent {
         flex-direction: column;
     }
-    
+
     #redes_1,
     #redes_2,
     #redes_3,
@@ -1224,11 +1228,11 @@ footer .fa-instagram-square {
 
 
     /*ILUSTRACIONES */
-    
+
     .section-ilustraciones .parent {
         flex-direction: column;
     }
-    
+
     /*Los b*/
     #los_b_1,
     #los_b_2,

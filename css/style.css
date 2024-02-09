@@ -10,7 +10,8 @@
   --grey-color: rgba(0, 0, 0, 0.76);
   --blue-color: #161630;
   --background: #f8f8f9;
-  --header-border-bottom: lightgray; }
+  --header-border-bottom: lightgray;
+  --light: #E3D2C0; }
 
 body {
   margin: 0px;
@@ -146,7 +147,8 @@ ul.menu-nav li a.activo {
   margin-bottom: 20px; }
 
 .article-main p {
-  width: 40%; }
+  width: 40%;
+  color: var(--light); }
 
 .article-main a img {
   width: 25%; }
