@@ -877,14 +877,18 @@ footer .fa-instagram-square {
   /*UX UI Y WEB */
   .section-uxuiweb .parent {
     flex-direction: column; }
-  /*Web*/
-  #web_1,
-  #web_2,
-  #web_3,
-  #web_4,
-  #web_5,
-  #web_6,
-  #web_7 {
+  /*Veganes*/
+  #web_veganes_1,
+  #web_veganes_2,
+  #web_veganes_3,
+  #web_veganes_4,
+  #web_veganes_5 {
+    width: 100% !important; }
+  /*Ciclo*/
+  #web_ciclo_1,
+  #web_ciclo_2,
+  #web_ciclo_3,
+  #web_ciclo_4 {
     width: 100% !important; }
   /*REDES */
   .section-redes .parent {
