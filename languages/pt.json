@@ -1,0 +1,71 @@
+{
+    "menu": {
+       "home": "Inicio pt",
+       "services": "Servicios pt",
+       "us": "Nosotros pt",
+       "contact": "Contacto pt"
+    },
+    "home": {
+       "description": "Una identidad además de impactar y generar emociones, debe estar cargada de conceptos e historias. Pero más allá de solamente proyectar identidades, nuestro objetivo es también darle personalidad, creándole proyectos de identidad visual que ayuden a mejorar la comunicación con su público.",
+       "text": "¿Empezamos a darle vida a tus ideas?",
+       "button": "Quiero empezar"
+    },
+    "services": {
+      "branding": "Branding",
+      "editorial": "Editorial",
+      "uxuiandweb": "UX/UI and Web",
+      "rrss": "Social Media",
+      "ilustrations": "Ilustrations",
+      "lettering": "Lettering",
+      "button_back": "Volver"
+   },
+   "services-branding": {
+      "title": "Branding",
+      "description": "Más allá de la marca, la identidad visual es parte fundamental del proyecto de marca, es la primera comunicación de esta con el público. La marca es la extensión de la persona que está por detrás de ella, la identidad visual es la personalidad de esta marca, es el conjunto de elementos que representa visualmente un nombre, idea, empresa, servicio o producto."
+   },
+   "services-editorial": {
+      "title": "Desenho editorial",
+      "description1": "O maior desafio de um designer é solucionar problemas, e entre tantas barreiras a serem quebradas  estão nos projetos editoriais onde sempre existe a necessidade de fazer funcionar uma peça informativa, seja ela com muita ou pouca informação.",
+      "description2": "Transformar espaços, hierarquizar conteúdo, combinar tipografias, manter uma estética visual e facilitar a leitura não é uma tarefa fácil.",
+      "description3" : "É por isso que oferecemos esse serviço que tanto ajuda nossos clientes a se comunicarem com seu público de forma mais direta, atrativa e funcional. Somos bombardeados de informações o tempo todo e saber captar a atenção do público em meio a todo esse barulho é fundamental.",
+      "covers": "Tapas",
+      "brochures": "Folhetos"
+   },
+   "services-uxuiandweb": {
+      "title": "UX/UI y Web",
+      "description1": "Que o futuro é digital isso já sabemos, mas se as redes sociais já movimentam tanto a Internet, por que fazer um site para sua empresa?",
+      "description2": "Ter um site gera mais credibilidade para o seu negócio, aumenta a competitividade no mercado e gera mais possibilidade de vendas. Mas para que tudo isso funcione, a experiência dos seus clientes ao entrar na sua nova web deve ser a melhor e mais funcional possível.",
+      "description3" : "Em nosso estúdio contamos com profissionais centrados no usuário que utilizam elementos gráficos e interativos para mudar completamente o patamar do seu negócio, aumentando a conversão de clientes através de uma página funcional, esteticamente linda e adequada à sua marca."
+   },
+   "services-rrss": {
+      "title": "Redes Sociales",
+      "description1": "Ter uma rede social pra sua empresa hoje em dia é como ter uma loja na rua com vitrine. É geralmente o primeiro contato que o público tem com a sua marca, e já sabe, né? A primeira impressão é sempre a que fica.",
+      "description2": "Isso não quer dizer que você tenha que seguir um padrão, ou fazer a mesma coisa que todo mundo está fazendo, é preciso ter bem claro quem e como são as pessoas que consomem, ou vão consumir seu produto ou serviço, pra entender como apresentar sua marca neste grande universo que são as redes.",
+      "description3" : "Caroca conta com todas as ferramentas necessárias para te ajudar nessa investigação e produção, pode ser justo o que anda faltando pra sua marca ganhar muito mais visibilidade e credibilidade no mercado."
+   },
+   "services-ilustrations": {
+      "title": "Ilustraciones",
+      "description1": "Um dos elementos que formam a identidade visual de uma marca são as ilustrações, que não necessariamente vão estar em todos os projetos, nem toda marca precisa desse suporte, mas quando precisa, é necessário entender que traço, estilo, ou formas essas ilustrações teriam, para que possam ainda que separadas de todos os demais elementos da identidade visual, conviver visualmente bem.",
+      "description2": "É por isso que analisamos cuidadosamente cada projeto e cada ilustração que nasce é única."
+   },   
+   "services-lettering": {
+      "title": "Lettering",
+      "description1": "Mas afinal, o que é isso de lettering? Muitos acreditam que o lettering é um talento nato que alguém possui para escrever lindamente, mas vai muito além disso. Quando se escreve faz-se mecanicamente, quando se desenha um lettering, existe um plano, um estilo, um propósito no desenho, o que exige muita habilidade, além de prática, e temos muito orgulho de ter profissionais em nossa equipe que os possui.",
+      "description2": "Se o seu projeto necessita desse tipo de arte para se comunicar com os seus clientes, não hesite em nos contactar. Você pode ter a frase ou palavra que desejar, estampada em murais, folhetos, cartões, camisetas, etc.",
+      "description3" : "Deixa a sua imaginação fluir, a gente acompanha você."
+   },
+   "us": {
+      "title": "Nuestro trabajo es transformar ideas en proyectos reales, pero no lo hacemos solos...",
+      "description": "Entendemos que cada persona detrás de un emprendimiento tiene una esencia única, sus ideas están cargadas de emociones y expectativas, y tomamos con responsabilidad, profesionalismo y empatía el hecho de entrar en el imaginario ajeno y poder hacerlo real. Por esta razón nuestro estudio no trabaja solamente con computadoras, usamos nuestras manos como principal herramienta de creación, y nuestra gran habilidad de comunicación para hacer con que nuestros clientes participen de nuestro proceso creativo de manera positiva y eficaz.",
+      "button": "Contactanos"
+   },
+   "contact": {
+      "title": "Genial, nos lanzamos al desafío...",
+      "name": "Nombre*",
+      "phone": "Teléfono*",
+      "mail": "E-mail*",
+      "subject": "Asunto*",
+      "message": "Contanos un poco sobre vos y tu emprendimento*",
+      "button": "Enviar"
+   }
+ }

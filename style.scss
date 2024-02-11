@@ -163,7 +163,7 @@ p {
 .navegacion li:first-child {
     padding-left: 0;
 }
-
+s
 .navegacion li:last-child {
     padding-right: 0;
 }
@@ -177,6 +177,22 @@ ul.menu-nav li a.activo {
     color: #ffffff;
 }
 
+.flags {
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.flags__item {
+    width: 30px;
+}
+
+.flags__img {
+    cursor: pointer;
+    display: block;
+}
 
 
 /* inicio */
