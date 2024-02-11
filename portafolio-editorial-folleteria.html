@@ -14,11 +14,6 @@
     <header class="header-container">
         <a href="index.html" target="_self"><img class="logo" src="./img/logo.svg" alt="Logo" width="12%"
                 height="12%"></a>
-        <div class="menu-hamburguesa">
-            <img class="img-menu hamburguesa " id="hamburguesa" src="./img/hamburger.png" alt="Menu-Toggle">
-            <img class="img-menu close" id="close" src="./img/close.png" alt="Cerra-Toggle">
-        </div>
-
         <div id="flags" class="flags">
             <div class="flags__item" data-language="es">
                 <img class="flags__img" src="img/flags/es.svg" alt="Español">                
@@ -31,13 +26,18 @@
             </div>
         </div>
 
+        <div class="menu-hamburguesa">
+            <img class="img-menu hamburguesa " id="hamburguesa" src="./img/hamburger.png" alt="Menu-Toggle">
+            <img class="img-menu close" id="close" src="./img/close.png" alt="Cerra-Toggle">
+        </div>
+
         <nav class="navegacion" id="navegacion">
             <ul class="menu-nav">
-                <li><a href="index.html" target="_self" data-section="menu" data-value="home">Inicio</a> </li>
-                <li><a href="portafolio.html"  data-section="menu" data-value="services">Servicios</a> </li>
-                <li><a href="nosotros.html" target="_self"  data-section="menu" data-value="us">Nosotros</a> </li>
+                <li><a href="index.html" target="_self" data-section="menu" data-value="home"></a> </li>
+                <li><a href="portafolio.html"  data-section="menu" data-value="services"></a> </li>
+                <li><a href="nosotros.html" target="_self"  data-section="menu" data-value="us"></a> </li>
                 <!-- <li><a href="que-hago.html" target="_self">Qu&eacute; hago</a> </li> -->
-                <li><a href="contacto.html" target="_self"  data-section="menu" data-value="contact">Contacto</a> </li>
+                <li><a href="contacto.html" target="_self"  data-section="menu" data-value="contact"></a> </li>
             </ul>
         </nav>
     </header>
@@ -60,7 +60,7 @@
 
             </article>
             <article class="boton-contactame">
-                <a href="portafolio-editorial.html" target="_self" class="button volver"> Volver </a>
+                <a href="portafolio-editorial.html" target="_self" class="button volver" data-section="services" data-value="button_back"></a>
             </article>
         </section>
     </main>

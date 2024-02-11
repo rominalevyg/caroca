@@ -189,11 +189,13 @@ ul.menu-nav li a.activo {
     width: 30px;
 }
 
-
 .flags__item:hover {
     width: 40px;
 }
 
+.flags__item.active {
+    width: 40px;
+}
 
 .flags__img {
     cursor: pointer;
@@ -861,8 +863,7 @@ footer .fa-instagram-square {
     }
 
     .img-menu {
-        position: absolute;
-        right: 70PX;
+        right: 70px;
         top: 12px;
         align-self: center;
         width: 40px;

@@ -153,6 +153,9 @@ ul.menu-nav li a.activo {
 .flags__item:hover {
   width: 40px; }
 
+.flags__item.active {
+  width: 40px; }
+
 .flags__img {
   cursor: pointer;
   display: block; }
@@ -647,8 +650,7 @@ footer .fa-instagram-square {
     text-transform: uppercase;
     font-weight: 300; }
   .img-menu {
-    position: absolute;
-    right: 70PX;
+    right: 70px;
     top: 12px;
     align-self: center;
     width: 40px;

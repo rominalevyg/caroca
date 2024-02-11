@@ -8,10 +8,18 @@ const flagsElement = document.getElementById("flags");
 
 const textsToChange = document.querySelectorAll("[data-section]");
 
+    var storage = localStorage.getItem('idioma');
+    if(!storage)
+    {
+        storage = 'en';
+        localStorage.setItem('idioma', storage);
+    }
 const changeLanguage = async (language) => {
     const requestJson = await fetch(`./languages/${language}.json`);
     const texts = await requestJson.json();
-    
+    console.log(language);
+    localStorage.setItem('idioma', language);
+
     for(const textToChange of textsToChange) {
         const section=textToChange.dataset.section;
         const value = textToChange.dataset.value;
@@ -22,6 +30,10 @@ const changeLanguage = async (language) => {
 
 flagsElement.addEventListener("click", (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
+});
+
+window.addEventListener('load', function(event) {
+    changeLanguage(storage);
 });
 
 
