@@ -150,6 +150,9 @@ ul.menu-nav li a.activo {
 .flags__item {
   width: 30px; }
 
+.flags__item:hover {
+  width: 40px; }
+
 .flags__img {
   cursor: pointer;
   display: block; }
