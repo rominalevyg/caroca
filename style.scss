@@ -713,6 +713,16 @@ footer .fa-instagram-square {
     margin-top: -4px !important;
 }
 
+#mana_1 {
+    visibility: visible;
+    width: 100% !important;
+}
+
+#mana_1_mobile {
+    visibility: hidden;
+    width: 0% !important;
+}
+
 /*oks*/
 
 .section-oks article {
@@ -1088,12 +1098,22 @@ footer .fa-instagram-square {
     }
 
     /*mana*/
-    #mana_1,
+   
     #mana_2,
     #mana_3,
     #mana_4,
     #mana_5 {
         width: 100% !important;
+    }
+
+    #mana_1_mobile {
+        visibility: visible;
+        width: 100% !important;
+    }
+
+    #mana_1 {
+        visibility: hidden;
+        width: 0% !important;
     }
 
     .section-mana .parent {

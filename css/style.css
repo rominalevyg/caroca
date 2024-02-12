@@ -551,6 +551,14 @@ footer .fa-instagram-square {
 .section-mana img {
   margin-top: -4px !important; }
 
+#mana_1 {
+  visibility: visible;
+  width: 100% !important; }
+
+#mana_1_mobile {
+  visibility: hidden;
+  width: 0% !important; }
+
 /*oks*/
 .section-oks article {
   width: 100%; }
@@ -796,12 +804,17 @@ footer .fa-instagram-square {
     visibility: hidden;
     width: 0% !important; }
   /*mana*/
-  #mana_1,
   #mana_2,
   #mana_3,
   #mana_4,
   #mana_5 {
     width: 100% !important; }
+  #mana_1_mobile {
+    visibility: visible;
+    width: 100% !important; }
+  #mana_1 {
+    visibility: hidden;
+    width: 0% !important; }
   .section-mana .parent {
     flex-direction: column; }
   /*oks*/
