@@ -71,7 +71,6 @@ p {
   background: transparent;
   border: 0.5px solid rgba(0, 0, 0, 0.3);
   padding: 8px;
-  width: 10em;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -225,7 +224,7 @@ ul.menu-nav li a.activo {
   background: #e3e1e690; }
 
 .servicios p {
-  color: var(--red-color);
+  color: var(--red-blue);
   font-weight: 700 !important;
   text-transform: uppercase; }
 
@@ -581,8 +580,7 @@ footer .fa-instagram-square {
 .section-ciclo img {
   margin-top: -4px !important; }
 
-#ciclo_5_mobile,
-#ciclo_15_mobile {
+#ciclo_5_mobile {
   visibility: hidden;
   width: 0% !important; }
 
@@ -842,7 +840,7 @@ footer .fa-instagram-square {
   #ciclo_12,
   #ciclo_13,
   #ciclo_14,
-  #ciclo_15_mobile,
+  #ciclo_15,
   #ciclo_16,
   #ciclo_17,
   #ciclo_18,
