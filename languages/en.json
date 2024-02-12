@@ -8,7 +8,7 @@
     "home": {
        "description": "An identity, in addition to impacting and generating emotions, must be loaded with concepts and stories. But beyond just projecting identities, our objective is also to give it personality, creating visual identity projects that help improve communication with its audience.",
        "text": "Let's start bringing your ideas to life?",
-       "button": "I want to start"
+       "button": "Let's start"
     },
     "services": {
       "branding": "Branding",
@@ -21,7 +21,9 @@
    },
    "services-branding": {
       "title": "Branding",
-      "description": "Beyond the brand, the visual identity is a fundamental part of the brand project, it is its first communication with the public. The brand is the extension of the person behind it, the visual identity is the personality of this brand, it is the set of elements that visually represents a name, idea, company, service or product."
+      "description1": "Beyond the brand, the visual identity is a fundamental part of the brand project, it is its first communication with the public.",
+      "description2": "The brand is the extension of the person behind it, the visual identity is the personality of this brand, it is the set of elements that visually represents a name, idea, company, service or product.",
+      "description3": "That is why we believe that designing only a logo would be like submitting an incomplete work; We create unique identities that represent you as a person and as a business."
    },
    "services-editorial": {
       "title": "Editorial design",
@@ -57,7 +59,7 @@
    "us": {
       "title": "Our job is to transform ideas into real projects, but we don't do it alone...",
       "description": "We understand that each person behind a venture has a unique essence, their ideas are loaded with emotions and expectations, and we take with responsibility, professionalism and empathy the fact of entering the imagination of others and being able to make it real. For this reason our studio does not work only with computers, we use our hands as the main creation tool, and our great communication skills to make our clients participate in our creative process in a positive and effective way.",
-      "button": "Contact us"
+      "button": "Request a quote"
    },
    "contact": {
       "title": "Great, we launched the challenge...",

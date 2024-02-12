@@ -21,7 +21,9 @@
    },
    "services-branding": {
       "title": "Branding",
-      "description": "Más allá de la marca, la identidad visual es parte fundamental del proyecto de marca, es la primera comunicación de esta con el público. La marca es la extensión de la persona que está por detrás de ella, la identidad visual es la personalidad de esta marca, es el conjunto de elementos que representa visualmente un nombre, idea, empresa, servicio o producto."
+      "description1": "Más allá de la marca, la identidad visual es parte fundamental del proyecto de marca, es la primera comunicación de esta con el público.",
+      "description2": "La marca es la extensión de la persona que está por detrás de ella, la identidad visual es la personalidad de esta marca, es el conjunto de elementos que representa visualmente un nombre, idea, empresa, servicio o producto.",
+      "description3": "Por eso creemos que diseñar solamente un logo sería como entregar un trabajo incompleto; Creamos identidades únicas que te representan como persona y como negocio."    
    },
    "services-editorial": {
       "title": "Diseño esditorial",
@@ -57,7 +59,7 @@
    "us": {
       "title": "Nuestro trabajo es transformar ideas en proyectos reales, pero no lo hacemos solos...",
       "description": "Entendemos que cada persona detrás de un emprendimiento tiene una esencia única, sus ideas están cargadas de emociones y expectativas, y tomamos con responsabilidad, profesionalismo y empatía el hecho de entrar en el imaginario ajeno y poder hacerlo real. Por esta razón nuestro estudio no trabaja solamente con computadoras, usamos nuestras manos como principal herramienta de creación, y nuestra gran habilidad de comunicación para hacer con que nuestros clientes participen de nuestro proceso creativo de manera positiva y eficaz.",
-      "button": "Contactanos"
+      "button": "Solicitá un presupuesto"
    },
    "contact": {
       "title": "Genial, nos lanzamos al desafío...",
@@ -65,7 +67,7 @@
       "phone": "Teléfono*",
       "mail": "E-mail*",
       "subject": "Asunto*",
-      "message": "Contanos un poco sobre vos y tu emprendimento*",
+      "message": "Contanos un poco sobre vos y tu emprendimiento*",
       "button": "Enviar"
    }
  }
