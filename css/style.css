@@ -430,6 +430,8 @@ ul.menu-nav li a.activo {
 
 .section-contacto fieldset {
   border: none; }
+  .section-contacto fieldset input {
+    text-transform: capitalize; }
 
 .form-contacto {
   display: flex;

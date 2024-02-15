@@ -565,6 +565,9 @@ $animationSpeed: 40s;
 
 .section-contacto fieldset {
     border: none;
+    input {
+        text-transform: capitalize;
+    }
 }
 
 .form-contacto {

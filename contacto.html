@@ -47,7 +47,7 @@
     <main>
         <section class="section-contacto">
             <h1 data-section="contact" data-value="title"></h1>
-            <form action="enviar.php" class="form-contacto" method="post">
+            <!-- <form action="enviar.php" class="form-contacto" method="post">
                 <fieldset class="div-input">
                     <label for="" data-section="contact" data-value="name"></label>
                     <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
@@ -67,16 +67,24 @@
                 <fieldset class="div-input div-input-text-area">
                     <label class="label-mensaje" for="" data-section="contact" data-value="message"></label>
                     <textarea name="mensaje" id="text-area" placeholder="Escriba aqu&iacute; su mensaje" required></textarea>
-                </fieldset>
-                <!-- <article class="boton-contactame">
-                   <fieldset class="button div-input btn-enviar derecha"> <input id="btn-enviar" type="submit" value="enviar"></fieldset>
-                </article> -->
+                </fieldset>z
                 <article class="boton-contactame">
-                    <a type="submit" value="enviar" class="button" data-section="contact" data-value="button"> </a>
+                   <fieldset > <input class="button" id="btn-enviar" type="submit" value="enviar"></fieldset>
                 </article>
-                <!-- <article class="boton-contactame">
-                    <a href="mailto:studiocaroca@gmail.com" type="submit" value="enviar" class="button"> Enviar </a>
-                </article> -->
+                 <article class="boton-contactame">
+                    <a type="submit" value="enviar" class="button" data-section="contact" data-value="button"> </a>
+                </article> 
+            </form> -->
+
+            <form action="enviar.php" method="post">
+                <fieldset>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                    <input type="email" name="email" placeholder="Correo electrónico">
+                    <input type="tel" name="telefono" placeholder="Teléfono">
+                    <input type="text" name="asunto" placeholder="Asunto">
+                    <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                    <input class="button" id="btn-enviar" type="submit" value="Enviar">
+                </fieldset>
             </form>
         </section>
     </main>
