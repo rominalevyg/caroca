@@ -17,13 +17,13 @@
                 height="12%"></a>
         <div id="flags" class="flags">
             <div class="flags__item" data-language="es">
-                <img class="flags__img" src="img/flags/es.svg" alt="Español">                
+                <img class="flags__img" src="img/flags/es.svg" alt="Español">
             </div>
             <div class="flags__item" data-language="pt">
-                <img class="flags__img" src="img/flags/br.svg" alt="Portugues">               
+                <img class="flags__img" src="img/flags/br.svg" alt="Portugues">
             </div>
             <div class="flags__item" data-language="en">
-                <img class="flags__img" src="img/flags/us.svg" alt="Inglés">             
+                <img class="flags__img" src="img/flags/us.svg" alt="Inglés">
             </div>
         </div>
 
@@ -35,10 +35,10 @@
         <nav class="navegacion" id="navegacion">
             <ul class="menu-nav">
                 <li><a href="index.html" target="_self" data-section="menu" data-value="home"></a> </li>
-                <li><a class="activo" href="portafolio.html"  data-section="menu" data-value="services"></a> </li>
-                <li><a href="nosotros.html" target="_self"  data-section="menu" data-value="us"></a> </li>
+                <li><a class="activo" href="portafolio.html" data-section="menu" data-value="services"></a> </li>
+                <li><a href="nosotros.html" target="_self" data-section="menu" data-value="us"></a> </li>
                 <!-- <li><a href="que-hago.html" target="_self">Qu&eacute; hago</a> </li> -->
-                <li><a href="contacto.html" target="_self"  data-section="menu" data-value="contact"></a> </li>
+                <li><a href="contacto.html" target="_self" data-section="menu" data-value="contact"></a> </li>
             </ul>
         </nav>
     </header>
@@ -46,10 +46,14 @@
     <main>
         <section class="proyectos">
             <article class="contenido">
-                <h1 data-section="services-editorial" data-value="title"></h1>
+                <div class="parent space-between">
+                    <h1 data-section="services-editorial" data-value="title"></h1>
+                    <a href="portafolio.html" target="_self" class="button volver-portfolio" data-section="services"
+                        data-value="button_back"></a>
+                </div>
                 <p data-section="services-editorial" data-value="description1"></p>
-                    <p data-section="services-editorial" data-value="description2"></p>
-                    <p  data-section="services-editorial" data-value="description3"></p>
+                <p data-section="services-editorial" data-value="description2"></p>
+                <p data-section="services-editorial" data-value="description3"></p>
             </article>
             <div class="carrusel">
                 <div class="carrusel-contenedor">
@@ -60,6 +64,9 @@
                         <a href="portafolio-editorial-tapas.html">
                             <div class="carrusel-elemento">
                                 <img src="./img/porfolio/editorial/tapas/tapas-icon.jpg" alt="Tapas">
+                                <div class="on_hover2">
+                                    <p data-section="services" data-value="see_more"></p>
+                                </div>
                             </div>
                             <p data-section="services-editorial" data-value="covers"></p>
                         </a>
@@ -67,19 +74,27 @@
                             <div class="carrusel-elemento">
                                 <img src="./img/porfolio/editorial/folleteria/folleteria-icon.jpg"
                                     alt="Folleter&iacute;a">
+                                <div class="on_hover2">
+                                    <p data-section="services" data-value="see_more"></p>
+                                </div>
                             </div>
                             <p data-section="services-editorial" data-value="brochures"></p>
                         </a>
                         <a href="portafolio-editorial-geledes.html">
                             <div class="carrusel-elemento">
                                 <img src="./img/porfolio/editorial/interiores/geledes/geledes-icon.jpg" alt="Geledes">
+                                <div class="on_hover2">
+                                    <p data-section="services" data-value="see_more"></p>
+                                </div>
                             </div>
                             <p>Geled&eacute;s</p>
                         </a>
                         <a href="portafolio-editorial-leparc.html">
                             <div class="carrusel-elemento">
-                                <img src="./img/porfolio/editorial/interiores/le-parc/le-parc-icon.jpg"
-                                    alt="Le Parc">
+                                <img src="./img/porfolio/editorial/interiores/le-parc/le-parc-icon.jpg" alt="Le Parc">
+                                <div class="on_hover2">
+                                    <p data-section="services" data-value="see_more"></p>
+                                </div>
                             </div>
                             <p>Le Parc</p>
                         </a>

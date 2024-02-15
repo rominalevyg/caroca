@@ -8,7 +8,7 @@
     "home": {
        "description": "Uma identidade, além de impactar e gerar emoções deve estar carregada de conceitos e histórias. Nosso trabalho não se limita apenas a desenhar identidades, Caroca tem como objetivo dar personalidade a elas, criando projetos de identidade visual que ajudam a melhorar a comunicação com seu público.",
        "text": "Vamos dar vida às suas ideias?",
-       "button": "Quero começar"
+       "button": "Como trabalhamos?"
     },
     "services": {
       "branding": "Projetos de marcas",
@@ -17,7 +17,8 @@
       "rrss": "Redes Sociais",
       "ilustrations": "Ilustrações",
       "lettering": "Lettering",
-      "button_back": "Voltar"
+      "button_back": "Voltar",
+      "see_more": "Ver mais"
    },
    "services-branding": {
       "title": "Branding",

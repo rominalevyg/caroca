@@ -103,6 +103,12 @@ p {
   width: 100px;
   background-color: #ffffff79; }
 
+.volver-portfolio {
+  width: 100px; }
+
+.space-between {
+  justify-content: space-between; }
+
 .close {
   display: none; }
 
@@ -128,8 +134,7 @@ p {
 .navegacion li:first-child {
   padding-left: 0; }
 
-s
-.navegacion li:last-child {
+s .navegacion li:last-child {
   padding-right: 0; }
 
 ul.menu-nav li a:hover:not(.activo) {
@@ -168,7 +173,8 @@ ul.menu-nav li a.activo {
 
 .article-main p {
   width: 40%;
-  color: var(--light); }
+  color: var(--light);
+  font-weight: 400; }
 
 .article-main a img {
   width: 25%; }
@@ -188,8 +194,51 @@ ul.menu-nav li a.activo {
 .img-servicios img {
   width: 100%; }
 
-.div-servicio {
+.div-servicio, .carrusel-elemento {
   position: relative; }
+
+.on_hover {
+  display: none;
+  background-color: white;
+  color: var(--green-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  font-size: 1em; }
+  .on_hover p {
+    line-height: 400px; }
+
+.div-servicio:hover .on_hover {
+  display: block; }
+
+.on_hover2 {
+  display: none;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  font-size: 1em; }
+  .on_hover2 p {
+    line-height: 400px;
+    color: var(--red-color) !important;
+    text-transform: uppercase;
+    font-weight: 700 !important; }
+
+.carrusel-elemento:hover .on_hover2 {
+  display: block; }
+
+.carrusel-elemento:hover .on_hover2 {
+  display: block; }
 
 .titulo-servicios p {
   align-self: center; }
@@ -433,18 +482,20 @@ footer {
   justify-content: center;
   height: 40px;
   margin-top: 30px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  gap: 20px; }
 
 footer .fa-facebook-square {
-  color: var(--red-color);
-  margin-right: 16px; }
+  color: var(--red-color); }
 
 footer .fa-behance-square {
-  color: var(--green-color);
-  margin-right: 16px; }
+  color: var(--green-color); }
 
 footer .fa-instagram-square {
   color: var(--yellow-color); }
+
+footer .fa-linkedin {
+  color: var(--blue-color); }
 
 /*Luvyn*/
 .section-luvyn article {
@@ -636,6 +687,10 @@ footer .fa-instagram-square {
 
 /* Media */
 @media screen and (max-width: 800px) {
+  .servicios h2,
+  .bottom-info h2 {
+    padding-left: 20px;
+    padding-right: 20px; }
   .header-container {
     height: 60px; }
   .article-main {
