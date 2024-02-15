@@ -1058,6 +1058,29 @@ footer .fa-linkedin {
         width: 100%;
     }
 
+    /*Porfolios */
+    .glider-track {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        a {
+            width: 100% !important;
+            .carrusel-elemento {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .glider-slide {
+        width: 100%;
+    }
+
+    .glider-dot, .carrusel-anterior, .carrusel-siguiente{
+        display: none;
+        visibility: hidden;
+    }
+
+
     /*luvyn*/
 
     .section-luvyn .parent {

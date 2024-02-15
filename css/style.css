@@ -779,6 +779,20 @@ footer .fa-linkedin {
     margin-left: 40px; }
   .div-input {
     width: 100%; }
+  /*Porfolios */
+  .glider-track {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important; }
+    .glider-track a {
+      width: 100% !important; }
+      .glider-track a .carrusel-elemento {
+        width: 100% !important; }
+  .glider-slide {
+    width: 100%; }
+  .glider-dot, .carrusel-anterior, .carrusel-siguiente {
+    display: none;
+    visibility: hidden; }
   /*luvyn*/
   .section-luvyn .parent {
     flex-direction: column; }
