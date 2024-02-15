@@ -990,6 +990,12 @@ footer .fa-linkedin {
   #web_ciclo_3,
   #web_ciclo_4 {
     width: 100% !important; }
+  /*Pucara*/
+  #web_pucara_1,
+  #web_pucara_2,
+  #web_pucara_3,
+  #web_pucara_4 {
+    width: 100% !important; }
   /*REDES */
   .section-redes .parent {
     flex-direction: column; }
@@ -1021,4 +1027,12 @@ footer .fa-linkedin {
   #xnv_3,
   #xnv_4,
   #xnv_5 {
+    width: 100% !important; }
+  /*Predicciones*/
+  #predicciones_1,
+  #predicciones_2,
+  #predicciones_3,
+  #predicciones_4,
+  #predicciones_5,
+  #predicciones_6 {
     width: 100% !important; } }
