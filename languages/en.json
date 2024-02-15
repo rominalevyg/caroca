@@ -70,5 +70,9 @@
       "subject": "Subject*",
       "message": "Tell us a little about you and your business*",
       "button": "Send"
+   },
+   "thanksyou": {
+      "title": "Thank you for contacting us!",
+      "subtitle": "We are redirecting you to the main page"
    }
  }

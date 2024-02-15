@@ -479,6 +479,13 @@ ul.menu-nav li a.activo {
   padding: 20px;
   font-family: 'Montserrat', sans-serif; }
 
+.section-thankyou {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh; }
+
 footer {
   display: flex;
   justify-content: center;

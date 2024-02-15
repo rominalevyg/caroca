@@ -70,5 +70,9 @@
       "subject": "Assunto*",
       "message": "Conta-nos um pouco sobre você e seu emprendimento*",
       "button": "Enviar"
+   },
+   "thanksyou": {
+      "title": "Obrigado por nos contatar!",
+      "subtitle": "Estamos redirecionando você para a página principal"
    }
  }

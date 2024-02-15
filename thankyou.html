@@ -46,39 +46,9 @@
     </header>
 
     <main>
-        <section class="section-contacto">
-            <h1 data-section="contact" data-value="title"></h1>
-            <form action="https://formsubmit.co/35f66967f156e8673089d6da2148e8e5" id="contactForm" class="form-contacto" method="post">
-                <fieldset class="div-input">
-                    <label for="" data-section="contact" data-value="name"></label>
-                    <input type="text" name="name" placeholder="Ingrese su nombre" required>
-                </fieldset>
-                <fieldset class="div-input">
-                    <label for="" data-section="contact" data-value="phone"></label>
-                    <input type="text" name="phone" placeholder="Ingrese su tel&eacute;fono" required>
-                </fieldset>
-                <fieldset class="div-input">
-                    <label for="" data-section="contact" data-value="mail"></label>
-                    <input type="text" name="email" placeholder="Ingrese su e-mail" required>
-                </fieldset>
-                <fieldset class="div-input">
-                    <label for="" data-section="contact" data-value="subject"></label>
-                    <input type="text" name="subject" placeholder="Ingrese su asunto" required>
-                </fieldset>
-                <fieldset class="div-input div-input-text-area">
-                    <label class="label-mensaje" for="" data-section="contact" data-value="message"></label>
-                    <textarea name="message" id="text-area" placeholder="Escriba aqu&iacute; su mensaje"
-                        required></textarea>
-                </fieldset>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="http://www.studiocaroca.com.ar/thankyou.html">
-                <article class="boton-contactame">
-                    <fieldset> <input class="button" id="btn-enviar" type="submit" value="enviar"></fieldset>
-                </article>
-                <!--   <article class="boton-contactame">
-                    <a type="submit" value="enviar" class="button" data-section="contact" data-value="button"> </a>
-                </article> -->
-            </form>
+        <section class="section-thankyou">
+            <h1 data-section="thanksyou" data-value="title"></h1>
+            <h2 data-section="thanksyou" data-value="subtitle"></h2>
         </section>
     </main>
 
@@ -88,6 +58,12 @@
         <a href=" " target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
     </footer> -->
     <script src="./javaScript/index.js"></script>
+    <script>
+        // Función para redirigir al usuario al índice después de 6 segundos
+        setTimeout(function() {
+            window.location.href = "index.html";
+        }, 6000); 
+    </script>
 </body>
 
 </html>
