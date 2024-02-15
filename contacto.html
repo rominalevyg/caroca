@@ -48,7 +48,7 @@
     <main>
         <section class="section-contacto">
             <h1 data-section="contact" data-value="title"></h1>
-            <form action="php/enviar.php" class="form-contacto" method="post">
+            <form action="enviar.php" id="contactForm" class="form-contacto" method="post">
                 <fieldset class="div-input">
                     <label for="" data-section="contact" data-value="name"></label>
                     <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
@@ -77,6 +77,7 @@
                     <a type="submit" value="enviar" class="button" data-section="contact" data-value="button"> </a>
                 </article> -->
             </form>
+            <div id="result"></div>
         </section>
     </main>
 
@@ -86,6 +87,29 @@
         <a href=" " target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a>
     </footer> -->
     <script src="./javaScript/index.js"></script>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Previene el envío normal del formulario
+
+            // Recoge los datos del formulario
+            var formData = new FormData(this);
+
+            // Envía los datos del formulario usando fetch a tu script PHP
+            fetch('enviar.php', {
+                method: 'POST',
+                body: formData,
+            })
+                .then(response => response.text())
+                .then(data => {
+                    // Aquí puedes manejar la respuesta de tu script PHP
+                    document.getElementById('result').innerText = 'Gracias por tu mensaje. Te contactaremos pronto.';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
 </body>
 
 </html>
