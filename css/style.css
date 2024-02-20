@@ -644,6 +644,22 @@ footer .fa-linkedin {
   visibility: hidden;
   width: 0% !important; }
 
+/*sebastian marinero*/
+.section-sebastian-marinero article {
+  width: 100%; }
+
+.section-sebastian-marinero .parent {
+  width: 100% !important;
+  gap: 0px !important; }
+
+.section-sebastian-marinero img {
+  margin-top: -4px !important; }
+
+#sebastian_marinero_1 {
+  background-image: url("../img/porfolio/branding/sebastian-marinero/1.jpg");
+  background-repeat: repeat;
+  height: 450px; }
+
 /*EDITORIAL*/
 .section-editorial article {
   width: 100%; }
@@ -936,6 +952,18 @@ footer .fa-linkedin {
   #ciclo_15 {
     visibility: hidden;
     width: 0% !important; }
+  /*Sebastian marinero*/
+  #sebastian_marinero_1,
+  #sebastian_marinero_2,
+  #sebastian_marinero_3,
+  #sebastian_marinero_4,
+  #sebastian_marinero_5,
+  #sebastian_marinero_6,
+  #sebastian_marinero_7,
+  #sebastian_marinero_8 {
+    width: 100% !important; }
+  .section-sebastian-marinero .parent {
+    flex-direction: column; }
   /*EDITORIAL */
   .section-editorial .parent {
     flex-direction: column; }
