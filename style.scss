@@ -1299,7 +1299,7 @@ footer .fa-linkedin {
 
     /*Sebastian marinero*/
 
-    #sebastian_marinero_1,
+   
     #sebastian_marinero_2,
     #sebastian_marinero_3,
     #sebastian_marinero_4,
@@ -1308,6 +1308,12 @@ footer .fa-linkedin {
     #sebastian_marinero_7,
     #sebastian_marinero_8 {
         width: 100% !important;
+    }
+
+    #sebastian_marinero_1 {
+        visibility: hidden;
+        width: 0% !important;
+        height: 0px !important;
     }
     
     .section-sebastian-marinero .parent {
