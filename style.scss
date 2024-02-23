@@ -244,6 +244,8 @@ ul.menu-nav li a.activo {
 .img-servicios {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
 
 .img-servicios img {
