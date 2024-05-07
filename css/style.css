@@ -714,6 +714,17 @@ footer .fa-linkedin {
 
 /* Media */
 @media screen and (max-width: 800px) {
+  .div-servicio {
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.33); }
+  .titulo-servicios {
+    right: 0px; }
+  .div-servicio:hover .on_hover {
+    display: block !important; }
+  .on_hover {
+    display: block !important; }
   .servicios h2,
   .bottom-info h2 {
     padding-left: 20px;
