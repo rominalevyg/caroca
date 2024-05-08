@@ -938,51 +938,29 @@ footer .fa-linkedin {
 
 @media screen and (max-width: 800px) {
 
-    
-    .carrusel-elemento .on_hover2 {
-        animation: fadeInOut 9s ease 1;
-        display: none;
+    .on_hover2 {
+        display: block;
     }
+    // .carrusel-elemento .on_hover2 {
+    //     animation: fadeInOut 9s ease 1;
+    //     display: none;
+    // }
 
-    @keyframes fadeInOut {
-        0%, 100% {
-            display: block;
-            opacity: 0;
-        }
-        16.6%, 50%, 83.3% {
-            display: block;
-            opacity: 0.8;
-        }
-        8.3%, 41.6%, 75% {
-            display: block;
-            opacity: 0;
-        }
-    }
+    // @keyframes fadeInOut {
+    //     0%, 100% {
+    //         display: block;
+    //         opacity: 0;
+    //     }
+    //     16.6%, 50%, 83.3% {
+    //         display: block;
+    //         opacity: 0.8;
+    //     }
+    //     8.3%, 41.6%, 75% {
+    //         display: block;
+    //         opacity: 0;
+    //     }
+    // }
     
-   // .carrusel-elemento img {
-        // padding: 20px;
-        // box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.33);
-        // margin-bottom: 35px;
-    //}
-
-    // .div-servicio {
-    //     position: relative;
-    //     padding: 20px;
-    //     margin: 20px;
-    //     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.33);
-    // }
-
-    // .titulo-servicios {
-    //     right: 0px;
-    // }
-
-    // .div-servicio:hover .on_hover {
-    //     display: block !important;
-    // }
-
-    // .on_hover {
-    //     display: block !important;
-    // }
 
     .servicios h2,
     .bottom-info h2 {
