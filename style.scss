@@ -938,6 +938,32 @@ footer .fa-linkedin {
 
 @media screen and (max-width: 800px) {
 
+    
+    .carrusel-elemento .on_hover2 {
+        animation: fadeInOut 9s ease 1;
+        display: none;
+    }
+
+    @keyframes fadeInOut {
+        0%, 100% {
+            display: block;
+            opacity: 0;
+        }
+        16.6%, 50%, 83.3% {
+            display: block;
+            opacity: 1;
+        }
+        8.3%, 41.6%, 75% {
+            opacity: 0.5;
+        }
+    }
+    
+   // .carrusel-elemento img {
+        // padding: 20px;
+        // box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.33);
+        // margin-bottom: 35px;
+    //}
+
     .div-servicio {
         position: relative;
         padding: 20px;
