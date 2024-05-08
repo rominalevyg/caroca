@@ -940,7 +940,7 @@ footer .fa-linkedin {
 
     
     .carrusel-elemento .on_hover2 {
-        animation: fadeInOut 9s ease 1;
+        animation: fadeInOut 9s ease forwards;
         display: none;
     }
 
@@ -951,10 +951,11 @@ footer .fa-linkedin {
         }
         16.6%, 50%, 83.3% {
             display: block;
-            opacity: 1;
+            opacity: 0.8;
         }
         8.3%, 41.6%, 75% {
-            opacity: 0.5;
+            display: block;
+            opacity: 0;
         }
     }
     
@@ -964,24 +965,24 @@ footer .fa-linkedin {
         // margin-bottom: 35px;
     //}
 
-    .div-servicio {
-        position: relative;
-        padding: 20px;
-        margin: 20px;
-        box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.33);
-    }
+    // .div-servicio {
+    //     position: relative;
+    //     padding: 20px;
+    //     margin: 20px;
+    //     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.33);
+    // }
 
-    .titulo-servicios {
-        right: 0px;
-    }
+    // .titulo-servicios {
+    //     right: 0px;
+    // }
 
-    .div-servicio:hover .on_hover {
-        display: block !important;
-    }
+    // .div-servicio:hover .on_hover {
+    //     display: block !important;
+    // }
 
-    .on_hover {
-        display: block !important;
-    }
+    // .on_hover {
+    //     display: block !important;
+    // }
 
     .servicios h2,
     .bottom-info h2 {
