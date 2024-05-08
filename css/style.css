@@ -715,7 +715,7 @@ footer .fa-linkedin {
 /* Media */
 @media screen and (max-width: 800px) {
   .carrusel-elemento .on_hover2 {
-    animation: fadeInOut 9s ease forwards;
+    animation: fadeInOut 9s ease 1;
     display: none; }
   @keyframes fadeInOut {
     0%, 100% {
